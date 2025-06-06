@@ -1,0 +1,18 @@
+main{
+    width: 70%;
+    height: 35rem;
+    margin: auto ;
+    margin-top: 7rem;
+    display: flex;
+    padding: 1rem;
+    padding-left: 1rem;
+}
+.leftsection{
+    background-color: rgb(72, 73, 86);
+    width: 40%;
+    color: white;
+}
+.rightsection{
+    width: 60%;
+    background-color: white;
+}
