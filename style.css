@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(242, 206, 151);
+}
 main{
     width: 70%;
     height: 35rem;
@@ -11,26 +14,75 @@ main{
     background-color: rgb(72, 73, 86);
     width: 40%;
     color: white;
-    padding-left: 2rem;
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
 }
+
 .rightsection{
     width: 60%;
-    background-color: aqua;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    background-color: white;
     display: flex;
+    padding-top: 2rem;
     flex-direction: column;
 }
+article{
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    font-size: 1.5rem;
+}
+header{
+    padding-left: 2rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.ltp{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.7rem;
+}
 .line{
-    border: 2px solid red;
-    width: 4rem;
+    border: 2px solid rgb(227, 123, 98);
+    width: 3.5rem;
+    margin: 0;
+    padding: 0;
 }
 footer{
     margin-top: auto;
     display: flex;
     align-items: center;
-    background-color: yellow;
     width: 100%;
+    box-sizing: border-box;
+    height: 6rem;
+}
+.footerimg{
+    border-radius: 50%;
+    width: 5rem;
+}
+.rightfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-top: 1px solid gray;
+
+}
+.leftfooter{
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+.rbr{
+    display: flex;
+}
+.bold{
+    font-weight: 700;
+}
+.boldt{
+    font-weight: 700;
 }
