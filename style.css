@@ -62,6 +62,10 @@ footer{
 .footerimg{
     border-radius: 50%;
     width: 5rem;
+    box-shadow: 1px 1px 10px black;
+}
+.lbp{
+    font-size: 20px;
 }
 .rightfooter{
     display: flex;
@@ -79,10 +83,22 @@ footer{
 }
 .rbr{
     display: flex;
+    gap: 1.5rem;
 }
 .bold{
     font-weight: 700;
 }
 .boldt{
     font-weight: 700;
+}
+.rbrl{
+    display: flex;
+    gap: 0.7rem;
+}
+.number{
+    color: rgb(196, 190, 196);
+    font-size: 20px;
+}
+.date{
+    font-size: 18px;
 }
